@@ -1,6 +1,6 @@
 var abtest = {
   basePath: '',
-  
+
   trackGoal: function(id, obj) {
     // obj can be a link
     if (obj != undefined) {
@@ -12,8 +12,8 @@ var abtest = {
       jQuery.get(abtest.basePath+'/track_goal.php?id='+id);
     }
   },
-  
+
   trackVariation: function(id) {
-    jQuery.get(abtest.basePath+'/track_variation.php?id='+id);
+    //jQuery.get(abtest.basePath+'/track_variation.php?id='+id);
   }
 };
