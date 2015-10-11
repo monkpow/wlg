@@ -1,0 +1,2322 @@
+/*** REVISED CSS for SEO ***/
+/*** EDITED IN APRIL 2012 ***/
+/*** EDITED IN MARCH 2015 ***/
+
+/* COLOR INFORMATION
+Red = #bf311a;
+*/
+
+/*** GENERAL HMTL CONTROL ***/
+body {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	font-family: Arial, Helvetica, sans serif;
+	background-color: #fff;
+	font-size: 0.9em;
+	line-height: 130%;
+}
+#content blockquote p {
+	margin: 0 0 0 -15px;
+	padding: 0 0 0 12px;
+	color: #000;
+	background-color: transparent;
+	border-left: 3px solid #ccc;
+}
+img {
+	border: 0;
+	max-width: 100%;
+	height: auto;
+}
+hr {
+	border: 0;
+	border-top: 1px dotted #ccc;
+}
+/*! Images */
+.img-responsive {
+	max-width: 100%;
+	height: auto;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.alignleft {
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.alignright {
+	float: right;
+	margin: 0 0 20px 20px;
+}
+.wp-caption {
+	max-width: 100% !important; /* prevent too-wide images from breaking layout */
+	padding: 5px;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+.wp-caption-text {
+	font-size: 90%;
+	display: block;
+	margin: 0 !important;
+}
+ol {
+	margin: 0 0 12px 20px;
+	padding: 0;
+	color: #454545;
+}
+ul {
+	margin: 0 0 12px 20px;
+	padding: 0;
+	color: #454545;
+	background-color: transparent;
+	list-style-type: square;
+	list-style-position: outside;
+}
+ol li, ul li {
+	margin: 0 0 8px 0;
+	padding: 0;
+}
+/*** General CSS styles ***/
+.red {
+	color: #bf311a;
+	background-color: transparent;
+}
+/*** Wrapper ***/
+#wrapper {
+	margin: 0 auto;
+	/*width: 90%;*/
+	max-width: 980px; /*could remove this for max flexibility on wide screens */
+	background-color: #fff;
+}
+.screen-reader-text {
+	position: absolute;
+	left: -9000px;
+}
+/*** Banner ***/
+#strapline {
+	margin: 0 2.04081632% 20px 2.04081632%;
+	width: 95.91836734%;
+	padding: 8px 0;
+	font-size: 100%;
+	line-height: 100%;
+	font-weight: normal;
+	color: #fff;
+	background-color: #bf311a;
+	text-align: center;
+	float: left;
+}
+#banner {
+	margin: 0 2.04081632% 20px 2.04081632%;
+	padding: 0;
+	position: relative;
+	width: 95.91836734%;
+	float: left;
+}
+#banner img {
+	display: block;
+}
+#banner img.logo {
+	margin: 20px 0;
+	float: left;
+}
+#banner p {
+	margin: 30px 0 35px 0;
+	padding: 0;
+	width: 43%;
+	float: right;
+	text-align: right;
+	font-family: Georgia, Garamond, Times New Roman, Times, serif;
+	font-size: 1.1em;
+	line-height: 130%;
+	color: #454545;
+}
+
+/*** Main **/
+#main {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	float: left;
+}
+/*** Righter ***/
+#righter {
+	margin: 0 2.04081632% 1.0em 2.04081632%;
+	padding: 0;
+	width: 29.25170067%;
+	float: left;
+}
+.abtest #righter p.tag {
+	margin: 1.5em 0 0;
+	text-align: center;
+	font-family: Georgia, Garamond, Times New Roman, Times, serif;
+	font-size: 1.2em;
+	line-height: 130%;
+	color: #454545;
+}
+/*#righter.home {
+margin: 0 2.08333% 0 6.25%;
+} */
+.contact-info {
+	width: 93.02325582%;
+	margin: 0 0 20px 0;
+	padding: 10px 3.48837209%;
+	/*padding: 5px 4%;*/
+	float: left;
+	color: #454545;
+	background-color: #efefef;
+	box-shadow: 7px 7px 5px #999;
+	-moz-box-shadow: 7px 7px 5px #999;
+	-webkit-box-shadow: 7px 7px 5px #999;
+}
+#row3 .contact-info {
+	width: 27.21088435%;
+	margin: 0 2.04081632%;
+	padding: 10px 1.02040816%;
+}
+.contact-info a:link, .contact-info a:visited {
+	color: #454545;
+	background-color: transparent;
+	text-decoration: none;
+}
+.contact-info a:hover, .contact-info a:active {
+	text-decoration: underline;
+}
+.contact-info h2 {
+	padding: 2px 0 8px 2.0em;
+	font-size: 95%;
+	color: #000;
+	background: url('../img/contact-wlg-icon.png') no-repeat left top;
+	border-bottom: 1px solid #ccc;
+}
+.contact-info p {
+	margin: 0 0 8px 0;
+	background-color: transparent;
+	line-height: 1.3em;
+	font-size: 90%;
+}
+.contact-info p span, .contact-info strong {
+	color: #000;
+}
+/* Social Media links in footer column */
+#soc-med {
+	margin: 10px 0;
+	padding: 0 10px;
+	font-size: 90%;
+	clear: both;
+}
+#soc-med ul {
+	list-style-type: none;
+}
+#soc-med li {
+	margin: 0 10px 0 0;
+	float: left;
+}
+#soc-med li.fb {
+	padding: 3px 0 3px 22px;
+	background: url(../img/icon-facebook.png) left center no-repeat;
+	border: 0;
+}
+#soc-med li.tw {
+	padding: 3px 0 3px 22px;
+	background: url(../img/icon-twitter.png) left center no-repeat;
+	border: 0;
+}
+#soc-med li.rss {
+	padding: 3px 0 3px 22px;
+	background: url(../img/icon-rss.png) left center no-repeat;
+	border: 0;
+}
+#soc-med li.gp {
+	padding: 3px 0 3px 22px;
+	background: url(../img/icon-googleplus.png) left center no-repeat;
+	border: 0;
+}
+#soc-med li.yt {
+	padding: 3px 0 3px 22px;
+	background: url(../img/icon-youtube.png) left center no-repeat;
+	border: 0;
+}
+#soc-med a {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+#soc-med a:hover, #soc-med a:active {
+	text-decoration: underline;
+}
+/*** Lefter ***/
+#lefter {
+	margin: 60px 0 0 0;
+	padding: 0;
+	width: 94px;
+	float: left;
+}
+/*** Content ***/
+#content {
+	margin: 0 8.04082% 40px 2.04082%;
+	width: 51.585%; /* 57.585% */
+	padding: 0 0 0 5%;
+	float: left;
+}
+#content.about-us,
+.parent-pageid-18 #content {
+	background: url('../img/about-us.gif') no-repeat left 60px;
+}
+#content.practice-areas {
+	background: url('../img/practice-areas.gif') no-repeat left 60px;
+}
+#content.attorneys {
+	background: url('../img/attorneys.gif') no-repeat left 60px;
+}
+#content.results {
+	background: url('../img/results.gif') no-repeat left 60px;
+}
+#content.community-support {
+	background: url('../img/community-support.gif') no-repeat left 60px;
+}
+#content.blog {
+	background: url('../img/blog.gif') no-repeat left 60px;
+}
+#content.news {
+	background: url('../img/news.gif') no-repeat left 60px;
+}
+#content.contact-us {
+	background: url('../img/contact-us.gif') no-repeat left 60px;
+}
+#content.disclaimer {
+	background: url('../img/disclaimer.gif') no-repeat left 60px;
+}
+#content.privacy {
+	background: url('../img/privacy.gif') no-repeat left 60px;
+}
+#content.en-espanol {
+	background: url('../img/en-espanol.gif') no-repeat left 60px;
+}
+#content.case-review {
+	background: url('../img/case-review.gif') no-repeat left 60px;
+}
+#content.cle {
+	background: url('../img/register-for-cle.gif') no-repeat left 60px;
+}
+a {
+	color: #bf311a;
+	background-color: transparent;
+}
+h1.entry-title {
+	margin: 20px 0 20px 0;
+	padding: 0;
+	font-family: Georgia, Utopia, Palatino, "Palatino Linotype", serif;
+	font-size: 150%;
+	line-height: 110%;
+	color: #bf311a;
+	background-color: transparent;
+	font-weight: normal;
+}
+#content h2 {
+	margin: 20px 0 10px 0;
+	padding: 0;
+	font-family: Georgia, Utopia, Palatino, "Palatino Linotype", serif;
+	font-size: 135%;
+	line-height: 110%;
+	color: #bf311a;
+	background-color: transparent;
+	font-weight: normal;
+}
+#content p {
+	margin: 0 0 16px 0;
+	padding: 0;
+	color: #454545;
+	background-color: transparent;
+	line-height: 1.5em;
+}
+#content h2.intro, #content div.intro p {
+	margin: 0 0 20px 0;
+	padding: 0;
+	font-family: Georgia, Utopia, Palatino, "Palatino Linotype", serif;
+	font-size: 130%;
+	line-height: 125%;
+	color: #000;
+	background-color: transparent;
+	font-weight: normal;
+}
+#content p.redder, #content-home p.redder, #home-body p.redder {
+	margin: 25px 0 20px 0;
+	padding: 0;
+	font-family: Georgia, Utopia, Palatino, "Palatino Linotype", serif;
+	font-size: 130%;
+	color: #bf311a;
+	background-color: transparent;
+	font-weight: bold;
+}
+#content p.title {
+	margin: -10px 0 20px 0;
+	padding: 0;
+	font-size: 110%;
+	color: #999;
+	background-color: transparent;
+}
+#content strong {
+	color: #000;
+	background-color: transparent;
+}
+/*** Content for the home page ***/
+/*#content-home {
+margin: 1em 0;
+padding: 0;
+width: 100%;
+float: left;
+position: relative;
+}*/
+.holder {
+	margin: 0 0 20px 0;
+	padding: 0;
+	display: block;
+}
+/***Home intro two-column control ***/
+#home-intro {
+	margin: 0;
+	padding: 0;
+}
+#home-intro img {
+	margin: 0 0 10px 10px;
+	padding: 5px;
+	float: right;
+	border: 1px solid #ccc;
+}
+#home-intro ul {
+	margin: 0;
+	padding: 0;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	font-size: 100%;
+}
+#home-intro ul li {
+	float: left;
+	width: 45%;
+	margin: 0 5% 0.5em 0pt;
+	padding: 0 0 1em 0;
+}
+#home-intro ul.col {
+	margin: 15px 0 0 0;
+	padding: 0;
+	list-style-position: outside;
+	list-style-type: none;
+}
+#home-intro ul.col li {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border: 0;
+}
+#home-intro ul.col li p {
+	font-size: 115%;
+	line-height: 125%;
+}
+#news-highlight {
+	margin: 20px 0 0 0;
+	padding: 5px 10px;
+	background-color: #efefef;
+	border-bottom: 2px solid #fff;
+}
+#news-highlight h1 {
+	margin: 0 0 8px 0;
+	padding: 0;
+	font-size: 175%;
+	font-weight: normal;
+	color: #000;
+	background-color: transparent;
+}
+#news-highlight p {
+	font-size: 90%;
+	color: #666;
+	background-color: transparent;
+}
+#news-highlight p a:link, #news-highlight p a:visited {
+	color: #bf311a;
+	background-color: transparent;
+	text-decoration: none;
+}
+#news-highlight p a:hover, #news-highlight p a:active {
+	text-decoration: underline;
+}
+#truck-row {
+	margin: 0 0 50px 0;
+	padding: 20px 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	float: left;
+	width: 100%;
+}
+#truck-row #truck-01 {
+	margin: 0 2.5% 0 0;
+	padding: 0 2.04% 20px 0;
+	background-color: #bf311a;
+	width: 45%;
+	float: left;
+	color: #fff;
+}
+#truck-row #truck-01 h3 {
+	margin: 20px 0 0 0;
+	font-variant: small-caps;
+}
+#truck-row #truck-01 h2 {
+	margin: 10px 0 30px 0;
+	font-weight: normal;
+	font-size: 1.5em;
+	line-height: 110%;
+}
+#truck-row #truck-text {
+	width: 51%;
+	float: right;
+}
+#truck-row #truck-image {
+	margin: 20px 4.0%;
+	float: left;
+	width: 40.4255319149%;
+}
+#truck-row #truck-image img {
+	width: 100%;
+	height: auto;
+}
+#truck-row #truck-01 a {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	text-decoration: none;
+	display: inline;
+}
+#truck-row #truck-02 {
+	margin: 0;
+	padding: 0 1.5%;
+	width: 40%;
+	float: left;
+	color: #000;
+}
+#truck-row #truck-02 h2 {
+	margin: 0 0 15px 0;
+	font-weight: normal;
+	font-size: 1.5em;
+	line-height: 110%;
+	color: #bf311a;
+}
+#truck-row #truck-02 p {
+	margin: 0 0 12px;
+}
+#truck-row #truck-02 p.date {
+	margin: 0 0 4px 0;
+	padding: 0;
+	font-size: 0.8em;
+	line-height: 100%;
+	color: #666;
+}
+/*** practice box control ***/
+#practice {
+	margin: 0;
+	padding: 0;
+}
+#practice ul {
+	margin: 0;
+	padding: 0;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	font-size: 100%;
+}
+#practice ul li {
+	float: left;
+	width: 45%;
+	margin: 1em 3% 1em 0pt;
+	padding: 0 0 1em 0;
+}
+#practice ul.col {
+	margin: 0;
+	padding: 0 0.5em 0 0;
+	list-style-position: inside;
+	list-style-type: square;
+	list-style-image: url(../img/bullet.gif);
+}
+#practice ul.col li {
+	margin: 0 0 5px 0;
+	padding: 0;
+	width: 100%;
+	border: 0;
+}
+#practice ul.col li a:link, #practice ul.col li a:visited {
+	color: #000;
+	background-color: transparent;
+	font-weight: bold;
+	text-decoration: none;
+}
+#practice ul.col li a:hover, #practice ul.col li a:active {
+	color: #bf311a;
+	background-color: transparent;
+	text-decoration: underline;
+}
+/*** Lawyer Listing ***/
+.bio {
+	margin: 35px 0 0 0;
+	padding: 0 0 25px;
+	/*height: 150px;*/
+	float: left;
+	position: relative;
+	border-bottom: 1px dotted #ccc;
+}
+.bio:last-of-type {
+	border-bottom: 0;
+}
+.bio h4 {
+	margin: 0 0 4px 0;
+	font-size: 110%;
+	color: #bf311a;
+	background-color: transparent;
+	line-height: 1.2em;
+	font-weight: bold;
+}
+.bio .title {
+	font-size: 95%;
+	margin: 0 0 10px!important;
+}
+.bio img {
+	margin: 0 20px 10px 0;
+	padding: 5px;
+	border: 1px solid #ccc;
+	float: left;
+}
+.bio p.bio-link {
+	margin: 8px 0 0 0;
+	padding: 0;
+}
+.bio p.bio-link a:link, .bio p.bio-link a:visited {
+	color: #bf311a;
+	background-color: transparent;
+	text-decoration: none;
+}
+.bio p.bio-link a:hover, .bio p.bio-link a:active {
+	text-decoration: underline;
+}
+.biopic {
+	margin: 0;
+	padding: 5px;
+	border: 1px solid #ccc;
+	float: right;
+}
+p.backer {
+	margin: 30px 0 20px 0;
+	padding: 0;
+	float: left;
+}
+p.backer a:link, p.backer a:visited {
+	padding: 3px 5px;
+	color: #fff;
+	background-color: #333;
+	text-decoration: none;
+	font-size: 90%;
+	font-weight: bold;
+	display: block;
+}
+p.backer a:hover, p.backer a:active {
+	color: #fff;
+	background-color: #bf311a;
+}
+/*** Results list ***/
+ul.results {
+	margin: 20px 0;
+	padding: 0;
+	list-style:square inside url("../img/bullet.gif");
+	list-style-position: outside;
+	color: #000;
+	background-color: transparent;
+}
+ul.results li {
+	margin: 0 0 20px 1em;
+	padding: 0;
+	width: 100%;
+	border: 0;
+	font-size: 110%;
+	line-height: 1.28;
+}
+ul.results li a:link, ul.results li a:visited {
+	color: #bf311a;
+	background-color: transparent;
+	text-decoration: none;
+	font-weight: bold;
+}
+ul.results li a:hover, ul.results li a:active {
+	color: #bf311a;
+	background-color: transparent;
+	text-decoration: underline;
+}
+#content ul.results li p {
+	margin: 3px 0 0 0;
+	padding: 0;
+}
+ul.results li p a:link, ul.results li p a:visited {
+	color: #454545;
+	background-color: transparent;
+	font-weight: normal;
+	text-decoration: none;
+}
+ul.results li p a:hover, ul.results li p a:active {
+	color: #454545;
+	background-color: transparent;
+	text-decoration: underline;
+}
+/*** News listing ***/
+.news-item {
+	margin: 0 0 35px 0;
+	padding: 0 0 25px;
+	border-bottom: 1px dotted #ccc;
+}
+.news-item h4 {
+	margin: 0 0 5px 28.54609929%;
+	padding: 0;
+	color: #BF311A;
+	background-color: transparent;
+	font-size: 115%;
+	font-weight: normal;
+	line-height: 1.25em;
+}
+.news-item .the-excerpt {
+	margin-left: 28.54609929%;
+}
+#content .news-item p.date {
+	margin: 0 0 5px 28.54609929%;
+	padding: 0;
+	color: #999;
+	background-color: transparent;
+	font-size: 90%;
+}
+#content .news-item p.bio-link {
+	margin: -8px 0 0 0;
+	padding: 0;
+	color: #999;
+	background-color: transparent;
+	font-size: 90%;
+}
+a:link.news-link, a:visited.news-link {
+	text-decoration: none;
+}
+a:hover.news-link, a:active.news-link {
+	text-decoration: underline;
+}
+#bignews {
+	margin: 0 5px 20px 5px;
+	padding: 5px 8px;
+	background-color: #F5F5F5;
+	border: 1px solid #fff;
+	width: 170px;
+}
+#bignews h3 {
+	margin: 0 0 8px 0;
+	color: #000;
+	font-weight: normal;
+	background-color: transparent;
+}
+#bignews p {
+	color: #666;
+	background-color: transparent;
+}
+#bignews a:link, #bignews a:visited {
+	color: #bf311a;
+	background-color: transparent;
+	text-decoration: none
+}
+#bignews a:hover, #bignews a:active {
+	text-decoration: underline;
+}
+/*** Clearone ***/
+#clearone {
+	margin: 0;
+	padding: 0;
+	height: 1px;
+	clear: both;
+}
+/*** Org Logos ***/
+#org-logos {
+	width: 95.91836734%;
+	margin: 20px 2.04081632% 0;
+	float: left;
+}
+#org-logos img {
+	width: 100%;
+}
+/*** Footer ***/
+#footer {
+	margin: 20px 2.04081632% 0 2.04081632%;
+	padding: 0;
+	/*height: 325px;*/
+	float: left;
+	width: 95.91836734%;
+	font-size: 90%;
+	color: #fff;
+	background-color: #454545;
+}
+#footer h2 {
+	font-size: 110%;
+}
+#footer-strapline {
+	margin: 1em 2.12765957%;
+	width: 29.07801418%;
+	float: left;
+	font-size: 150%;
+	line-height: 130%;
+}
+.footer-content {
+	margin: 1em 2.12765957%;
+	float: left;
+}
+.contact-footer ul {
+	margin: 20px 0 0 0;
+	list-style-type: none;
+	float: left;
+}
+.contact-footer li {
+	color: #fff;
+	font-size: 70%;
+	line-height: 100%;
+}
+#practice-nav {
+	margin: 1em 2.12765957%;
+	width: 29.07801418%;
+	float: left;
+}
+#practice-nav h4 {
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+#practice-nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-position: outside;
+}
+#footerNews {
+	margin: 1em 2.12765957%;
+	width: 29.07801418%;
+	float: left;
+	text-align: left;
+}
+#footerNews h4 {
+	margin: 0 0 5px 0;
+	padding: 0;
+	color: #fff;
+	background-color: transparent;
+}
+#copy01 {
+/*padding: 0.5em 2%;
+width: 96%;
+background-color: #bf311a;
+color: #fff;
+position: absolute;
+left: 0;
+bottom: 0;*/
+margin: 20px 0 0 0;
+width: 100%;
+padding: 0;
+background-color: #bf311a;
+color: #fff;
+float: left;
+}
+#copy-date {
+	margin: 5px 0 5px 2.12765957%;
+	width: 25%;
+	font-size: 90%;
+	float: left;
+}
+p.footerNav {
+	margin: 5px 2.12765957% 5px 0;
+	width: 70%;
+	float: right;
+	font-size: 90%;
+}
+/*** Primary navigation control ***/
+#banner .inner {
+	position: relative;
+}
+#banner .inner img {
+	display: block;
+}
+#banner .inner, #nav .inner {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	float: left;
+	background-image: url('../img/nav-bg-01.gif');
+	background-repeat: repeat-x;
+	width: 720px;
+}
+#nav {
+	color: #fff;
+	float: left;
+}
+#nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	max-height: 30px;
+	min-height: 27px;
+}
+#nav li {
+	float:left;
+}
+#nav li a:link, #nav li a:visited {
+	color: #fff;
+	background-image: url('../img/nav-bg-01.gif');
+	display: block;
+	padding: 0.5em 1.12em;
+	text-decoration: none;
+	font-size: 110%;
+	font-weight: normal;
+	text-align: center;
+}
+#nav li.last-child a:link, #nav li.last-child a:visited {
+	padding: 0.5em 1.1em 0.5em 1.05em;
+}
+#nav li a:hover {
+	background: #000 url('img/nav-bg-02.gif') repeat-y center;
+	color: #fff;
+}
+/* hide the mobile menu by default*/
+.mobilemenu,
+a.mmenu {
+	display: none;
+}
+/*** Cookie Crumb Navigation ***/
+#crumb-nav {
+	margin: 0 0 20px 0;
+	padding: 20px 0 0 0;
+}
+#crumb-nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#crumb-nav > span, #crumb-nav li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	font-size: 90%;
+	color: #666;
+	background-color: transparent;
+}
+#crumb-nav span.breadcrumb_last, #crumb-nav li.last {
+	color: #000;
+	background-color: transparent;
+}
+#crumb-nav a {
+	color: #666;
+	background-color: transparent;
+}
+/*** Success link navigation ***/
+#success-link {
+	margin: 0 0 20px 0;
+	padding: 0;
+	height: 175px;
+	border-bottom: 2px solid #fff;
+}
+#success-link div.about {
+	height: 175px;
+	background-image: url(../img/r-col-bg-about.jpg);
+}
+#success-link div.practice {
+	height: 175px;
+	background-image: url(../img/r-col-bg-practice.jpg);
+}
+#success-link div.attorneys {
+	height: 175px;
+	background-image: url(../img/r-col-bg-attorneys.jpg);
+}
+#success-link div.results {
+	height: 175px;
+	background-image: url(../img/r-col-bg-results.jpg);
+}
+#success-link div.news {
+	height: 175px;
+	background-image: url(../img/r-col-bg-news.jpg);
+}
+#success-link div.contact {
+	height: 175px;
+	background-image: url(../img/r-col-bg-contact.jpg);
+}
+#success-link p {
+	margin: 0;
+	padding: 0;
+}
+#success-link a:link, #success-link a:visited {
+	margin: 0;
+	padding: 5px 5px;
+	display: block;
+	height: 20px;
+	color: #fff;
+	background-color: transparent;
+	text-decoration: none;
+	font-size: 115%;
+	font-weight: normal;
+	border-bottom: 1px solid #bf311a;
+}
+#success-link a:hover, #success-link a:active {
+	background: url(../img/success-link-hover.png);
+	border-bottom: 1px solid #fff;
+}
+/*** Footer navigation ***/
+#footer p span {
+	margin: 0 0 0 50px;
+}
+#footer .footer-content p span {
+	margin: 0;
+}
+#footer p span.divider {
+	margin: 0;
+}
+#footer p span.divider:first-of-type {
+	display: none;
+}
+#footer a:link, #footer a:visited {
+	color: #efefef;
+	background-color: transparent;
+	text-decoration: none;
+}
+#footer a:hover, #footer a:active {
+	text-decoration: underline;
+}
+/*** Images on contact page ***/
+.buildingpic, .contact-us .entry-content img {
+	margin: 0 10px 25px 0;
+	padding: 5px;
+	border: 1px solid #ccc;
+	float: left;
+}
+/*** More control for the news section ***/
+#content p.more-info {
+	margin: 35px 0 0 0;
+	padding: 8px 0 0 0;
+	border-top: 1px solid #ccc;
+	font-size: 90%;
+	color: #999;
+	background-color: transparent;
+}
+#content p.place {
+	margin: 0 0 10px 0;
+	padding: 0;
+	line-height: 100%;
+	color: #999;
+	background-color: transparent;
+	font-size: 90%;
+}
+/*** HOME PAGE LAYOUTS ***/
+#row1, #row2, #row2a, #row3 {
+	margin: 0 0 2em 0;
+	float: left;
+	width: 100%;
+}
+#row2 {
+	margin-bottom: 2em;
+}
+#row2 ul > li .read-more, #row2 ul li:nth-child(2) .bio-link {
+	display: none;
+}
+#row2a {
+	margin-bottom: 2em;
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
+#row2a h2 a {
+	display: block;
+	box-sizing: border-box;
+	padding: 1.5em;
+	background: #eee;
+	box-shadow: 3px 3px 3px #999;
+	  -moz-box-shadow: 3px 3px 3px #999;
+	  -webkit-box-shadow: 3px 3px 3px #999;
+	min-height: 161px;
+}
+#row2a h2 a:hover {
+	background: #bf311a;
+	color: #eee;
+}
+#row2a .read-more a {
+	color: #666;
+}
+#row1 #righter {
+	margin-bottom: 0;
+}
+#row2 ul, #row2a ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#row2 li, #row2a li {
+	margin: 0 2.04081632%;
+	float: left;
+	width: 29.25170067%;
+}
+/* Truck Highlight */
+#row2 li h4 {
+	margin: 0;
+	padding: 8px 0 8px 25px;
+	font-size: .85em;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: normal;
+	background: url(../img/route-icon.png) no-repeat left center !important;
+}
+/*#row2 li li {
+margin: 0;
+float: left;
+width: 100%;
+}*/
+#row2 h3, #row2a h3, #firm-news h3 {
+	margin: 0 0 0.5em 0;
+	padding: 0.5em 0.5em 0.5em 1.875em;
+	color: #fff;
+	font-size: 125%;
+	font-weight: normal;
+}
+#firm-news .widget_rss h3 a,
+#firm-news h3 a {
+	color: #fff;
+	text-decoration: none;
+}
+#row2 h3.success {
+	background: url('../img/success-h3-bg.png') no-repeat 0.333em center #696969;
+}
+#row2 h3.blog {
+	background: url('../img/blog-h3-bg.png') no-repeat 0.333em center #696969;
+}
+#row2 h3.truck {
+	background: url('../img/route-icon.png') no-repeat 0.333em 0.625em #696969;
+}
+#row2 h3.firm-news, #firm-news h3 {
+	background: url('../img/firm-news-h3-bg.png') no-repeat 0.333em center #696969;
+}
+#firm-news h3.truck,
+#firm-news .widget_rss h3 {
+	background: url('../img/route-icon.png') no-repeat 0.333em center #696969;
+}
+#row2 h2 a, #row2a h2 a {
+	font-weight: normal;
+	text-decoration: none;
+	line-height: 115%;
+}
+#row2a p.read-more {
+	width: 97.959%;
+	float: right;
+	margin-top: 2em;
+	text-align: right;
+}
+/*** NEWS HIGHLIGHT ON HOME PAGE + RIGHT COLUMN ***/
+#firm-news {
+	margin: 0 0 3.5em 0;
+	padding: 0;
+	width: 100%;
+	float: left;
+}
+#firm-news ul, #row2 ul #firm-news ul {
+	margin: 0 0 8px 0;
+	padding: 0;
+	color: #bf311a;
+}
+#firm-news ul li {
+	margin: 0;
+	float: left;
+	width: 100%;
+	padding: 0.55em 0 0.55em 0;
+	line-height: 120%;
+	list-style: none;
+	border-bottom: 1px dotted #ccc;
+}
+#firm-news li a:link, #firm-news li a:visited {
+	width: auto;
+	color: #bf311a;
+	background-color: transparent;
+	text-decoration: none;
+	float: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+	margin-left: 32.055749128%;
+}
+#firm-news .widget_rss li a:link, #firm-news .widget_rss li a:visited {
+	margin-left: 0;
+}
+#firm-news li a:hover, #firm-news li a:active {
+	color: #bf311a;
+	background-color: transparent;
+	text-decoration: underline;
+}
+#row2a h2 {
+	margin: 0 2.04081632% 20px 2.04081632%;
+}
+#row2a ul h2 {
+	margin: 0;
+}
+/* End list formatting */
+#righter #firm-news p.readmore {
+	margin: 0;
+	font-size: 90%;
+	text-align: right;
+	float: right;
+}
+#righter #firm-news p.readmore a:link,
+#righter #firm-news p.readmore a:visited {
+	padding: 5px 0 0 0;
+	color: #666;
+	display: block;
+	text-decoration: none;
+}
+#righter #firm-news p.readmore a:hover,
+#righter #firm-news p.readmore a:active {
+	text-decoration: underline;
+}
+#righter #firm-news a.rsswidget img {
+	display: none;
+}
+/*** HOME PAGE MAIN COPY ***/
+#home-body {
+	margin: 0 2.04081632%;
+	width: 62.58503401%;
+	float: left;
+}
+/*** BIG PHONE NUMBER ***/
+.cta, .cta-home {
+	margin: 1em 0 0.5em 0;
+	padding: 0;
+	width: 100%;
+	float: left;
+	font-size: 200%;
+	color: #bf311a;
+	text-align: center;
+	font-weight: bold;
+}
+.cta-home a, .cta a {
+	text-decoration: none;
+}
+a.cta.case-review,
+a.cta.case-review:visited,
+a.cta.case-review:link {
+	background-color: #bf311a;
+	width: auto;
+	color: #fff;
+	padding: 16px 16px;
+	margin: 0.5em 0 1.5em 0;
+	text-decoration: none;
+	line-height: 125%;
+	font-weight: normal;
+}
+a.cta.case-review:hover {
+	background-color: #ad2c18;
+}
+.cta.case-review.home {
+	margin: .5em 0 0 0;
+	font-size: 270%;
+	line-height: 1.2;
+	padding: 24px 16px;
+}
+/*.cta-home {
+width: 29.1667%;
+}*/
+.cta p, .cta-home p {
+	margin: 0 0 10px 0;
+	color: #000;
+	font-size: 75%;
+	font-weight: normal;
+}
+/*** UPDATED SLIDESHOW ***/
+/*#slideshow {
+margin: 0 2.04081632%;
+width: 62.58503401%;
+height: 340px;
+background: #111;
+position: relative;
+float: left;
+}
+#slideshow a {
+color: #fff;
+text-decoration: none;
+}
+#rotator_wrapper {
+width: 480px;
+width: 100%;
+height: 255px;
+}
+#rotator_wrapper img {
+width: 100%;
+}
+#rotator {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+#rotator li {
+position: absolute;
+left: 0;
+top: 0;
+z-index: 1;
+}
+#rotator_controls {
+margin: 0;
+padding: 0;
+list-style-type: none;
+padding-top: 10px;
+position: absolute;
+left: 10px;
+top: 225px;
+width: 150px;
+}
+#rotator_controls li {
+margin-left: 5px;
+display: inline;
+float: left;
+width: 10px;
+height: 10px;
+text-indent: -9999px;
+}
+#rotator_controls .current {
+background-color: #fff;
+}
+#rotator_controls a {
+display: block;
+width: 10px;
+height: 10px;
+border: 1px solid #fff;
+overflow: hidden;
+}
+#rotator_play_pause {
+position: absolute;
+right: 10px;
+top: 228px;
+padding-top: 5px;
+}*/
+#slideshow {
+	margin: 0 2.04081632%;
+	width: 62.58503401%;
+	float: left;
+}
+#slideshow .soliloquy-container {
+	margin-bottom: 0;
+}
+/*** CASE REVIEW FORM ***/
+.zemContactForm {
+	padding-bottom: 1.0em;
+}
+.zemContactForm fieldset {
+	padding: 0;
+	border: 0;
+}
+.zemContactForm legend {
+	margin: 0 0 10px 0;
+	padding: 5px 0 5px 1.333em;
+	font-size: 120%;
+	color: #454545;
+	font-weight: bold;
+	background: url('../img/case-review-icon.png') no-repeat left center;
+}
+form div {
+	margin: 0 0 8px 0;
+	padding: 0;
+}
+form div label {
+	float: left;
+	width: 120px;
+}
+#content form div.btn input,
+#content form .gform_button.button {
+	background-color:#bf311a;
+	border:1px solid #ccc;
+	color:#fff;
+	font-size:125%;
+	font-weight:normal;
+	margin:0;
+	padding:0 0.5em 0.2em;
+	cursor: pointer;
+}
+#content form .gform_button.button {
+	padding: 0.4em 0.55em;
+}
+/* CASE REVIEW BUTTON */
+#review {
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+#review a:link, #review a:visited {
+	margin: 0;
+	padding: 5px 8px;
+	font-size: 130%;
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	background-color: #bf311a;
+}
+#review a:hover, #review a:active {
+	background-color: #222;
+}
+/*** NEW CASE REVIEW FORM ***/
+.new-form, .new-form-home {
+	padding: 5px 4%;
+	background-color: #efefef;
+	box-shadow: 7px 7px 5px #999;
+	-moz-box-shadow: 7px 7px 5px #999;
+	-webkit-box-shadow: 7px 7px 5px #999;
+	float: left;
+}
+.new-form {
+	margin: 0 0 3.0em 0;
+}
+.new-form-home {
+	margin: 0 0 0 4%;
+	padding: 0 2.08333%;
+	width: 25.1667%;
+	float: left;
+}
+.new-form form label {
+	width: 30%;
+	font-size: 90%;
+}
+.new-form input, .new-form textarea {
+	width: 60%;
+}
+.new-form .disclaimer input {
+	width: auto;
+}
+.new-form .btn input[type="submit"],
+.new-form-home .btn input[type="submit"] {
+	margin: 0 0 0 30%;
+	padding: 5px 9px;
+	background-color: #333;
+	color: #fff;
+	float: left;
+	clear: both;
+	font-size: 120%;
+	font-family: Arial, Helvetica, sans serif;
+}
+/* CASE REVIEW FORM ON HOME PAGE */
+.disclaimer label {
+	width: 165px;
+	font-size: 85%;
+	line-height: 100%;
+	float: right;
+}
+/* CASE REVIEW FORM IN RIGHT COLUMN */
+#righter .disclaimer label {
+	width: 85%;
+}
+/*** Related Results ***/
+ul.related-results {
+	float: right;
+	margin: 0 0 20px 20px;
+	padding: 10px 12px;
+	border: 1px solid #ccc;
+	list-style-type: none;
+	width: 135px;
+	background-color: #efefef;
+}
+ul.related-results li {
+	margin: 0 0 12px 0;
+}
+ul.related-results li span {
+	color: #000;
+	font-weight: bold;
+}
+ul.related-results a:link, ul.related-results a:visited {
+	text-decoration: none;
+}
+ul.related-results a:hover, ul.related-results a:active {
+	text-decoration: underline;
+}
+/*** Lawyer contact info ***/
+#lawyercontact {
+	margin: 0 0 20px 0;
+	font-size: 90%;
+	border-top: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+	width: 63%;
+}
+#lawyercontact ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 3px 0;
+}
+#lawyercontact li {
+	margin: 0 0 5px 0;
+}
+#lawyercontact ul.social-icons {
+	border: 0;
+	position: relative;
+	bottom: auto;
+	margin: 0;
+}
+#lawyercontact ul.social-icons li {
+	float: none;
+	display: inline-block;
+	padding: 0 5px 0 0;
+	margin: 0;
+}
+#lawyercontact a.phone {
+	text-decoration: none;
+}
+.caption {
+	font-size: 90%;
+}
+/*** Language button ***/
+#language {
+	position: fixed;
+	right: 0;
+	top: 30%;
+	height: 90px;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	border-left: 2px solid #fff;
+}
+/*** News Archive links ***/
+#arch {
+	margin: 0 0 1.5em 0;
+	padding: 0;
+	font-size: 90%;
+	color: #333;
+	float: left;
+}
+#arch a:link, #arch a:visited {
+	margin: 0;
+	padding: 5px 8px;
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	font-size: 125%;
+}
+#arch a:hover, #arch a:active {
+	background-color: #bf311a;
+}
+/*** Blog Formatting ***/
+#content p.blog-intro {
+	margin: 0 0 20px 0;
+	padding: 8px 0;
+	font-size: 90%;
+	color: #999;
+	border-top: 1px dotted #999;
+	border-bottom: 1px dotted #999;
+}
+#content h2.blog {
+	margin: 24px 0 12px 0;
+	padding: 0;
+	font-size: 120%;
+	font-weight: bold;
+	color: #000;
+	background-color: #fff;
+	font-family: arial, helvetica, sans-serif;
+}
+.blogimg {
+	max-height: 125px;
+	max-width: 25%; /* 161px / 564px */
+	text-align: center;
+	overflow: hidden;
+	float: left;
+	margin: 0 3.683241252% 0 0; /* 20px / 543px */
+}
+#firm-news li .blogimg a {
+	margin: 0 !important;
+}
+.blogimg img {
+	max-width: 100% !important;
+	position: relative;
+}
+.blog-item {
+	margin: 25px 0 35px 0;
+	padding: 0 0 25px;
+	border-bottom: 1px dotted #ccc;
+}
+.blog-item h4 {
+	margin: 0 0 5px 28.54609929%;
+	padding: 0;
+	color: #BF311A;
+	background-color: transparent;
+	font-size: 115%;
+	font-weight: normal;
+	line-height: 1.25em;
+}
+#content .blog-item p.date {
+	margin: 0 0 5px 28.54609929%;
+	padding: 0;
+	color: #999;
+	background-color: transparent;
+	font-size: 90%;
+}
+#content .blog-item p.more {
+	margin: -8px 0 0 28.54609929%;
+	padding: 0;
+	color: #999;
+	background-color: transparent;
+	font-size: 90%;
+}
+#content .blog-item .entry-content p {
+	margin-left: 28.54609929%;
+}
+.home-blog-item .blogimg {
+	width: auto;
+	max-height: 100%;
+	max-width: 100%;
+	margin: 0 0 20px 0;
+}
+/* pagination */
+.newposts {
+	float: right;
+	text-align: right;
+}
+.oldposts {
+	float: left;
+	text-align: left;
+}
+/*** Blog headline on the home page
+#blog-headline {
+margin: 0 10px 30px 10px;
+padding: 0;
+width: 180px;
+}
+#blog-headline h2 {
+margin: 15px 0 5px 0;
+padding: 0;
+font-family: Georgia, Utopia, Palatino, "Palatino Linotype", serif;
+font-variant: small-caps;
+color: #000;
+background-color: transparent;
+}
+#righter #blog-headline p {
+margin: 0 0 8px 0;
+padding: 0;
+line-height: 120%;
+font-size: 90%;
+}
+#blog-headline p a:link, #blog-headline p a:visited {
+color: #000;
+background-color: transparent;
+text-decoration: none;
+}
+#blog-headline p a:hover, #blog-headline p a:active {
+color: #bf311a;
+background-color: transparent;
+text-decoration: underline;
+}
+***/
+#righter #blog-headline p.readmore, p.readmore {
+	margin: 5px 0 0 0;
+	float: right;
+}
+#righter #blog-headline p.readmore a:link,
+#righter #blog-headline p.readmore a:visited,
+p.readmore a:link,
+p.readmore a:visited  {
+	padding: 5px 0 0 0;
+	color: #666;
+	display: block;
+}
+/*** Blog Section navigation ***/
+#blog-nav {
+	margin: 10px 0 0 0;
+	padding: 10px 0 0 0;
+	border-top: 1px solid #ccc;
+}
+#blog-nav h4 {
+	margin: 0 0 8px 0;
+	padding: 0;
+	font-size: 90%;
+	color: #999;
+}
+#blog-nav p {
+	margin: 0 0 6px 0;
+}
+#blog-nav p span {
+	font-variant: small-caps;
+}
+#blog-nav a {
+	margin: 0 0 8px 0;
+}
+/*** AdWords related design elements
+	Added by Liam Dempsey / liam@lbdesign.tv
+	2012-02-14
+
+.adwords-form {
+margin: 0 0 0 54%;
+padding: 3%;
+width: 40%;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+.adwords-form form div label {
+float: none;
+display: block;
+}
+.adwords-form form .btn {
+margin-left: 95px;
+font-size: 75%;
+font-weight: normal;
+}
+#content .adwords-para {
+width: 45%;
+float: left;
+}
+#content .adwords-para p {
+margin-bottom: 1.2em;
+font-size: 130%;
+}
+#content .adwords-para p.adwords {
+font-size: 140%;
+font-weight: bold;
+color: #000;
+}
+#content p.adwords span {
+color: #BF311A;
+}
+#success-link.adwords div.practice {
+background-image: url("../img/r-col-bg-attorneys.jpg");
+}
+.adwords-righter {
+margin: 10px;
+}
+.adwords-righter #contact-adwords {
+margin: 0 0 50px 0;
+}
+.adwords-righter #contact-adwords p {
+margin: 0 0 8px 0;
+font-size: 110%;
+line-height: 100%;
+}
+.adwords-righter #contact-adwords p.tel {
+font-size: 200%;
+}
+.adwords-righter p span {
+font-weight: bold;
+color: #BF311A;
+}
+***/
+
+/*** PRIMARY NAVIGATION ***/
+#navigation {
+	width: 100%;
+	background-color: transparent;
+	float: left;
+	border-top: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+}
+
+#menubar, #menubar ul {
+	padding: 6px 0;
+	margin: 0;
+	width: 100%;
+	list-style: none;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: transparent;
+	z-index: 2;
+	position: relative;
+	float: left;
+}
+#menubar ul {
+	padding-bottom: 0;
+}
+
+#menubar a {
+	padding: 8px 12px;
+	display: block;
+	text-decoration: none;
+	font-size: 1.15em;
+	color: #000;
+	background-color: transparent;
+}
+
+#menubar a.trigger {
+	padding: 10px 16px 10px 10px;
+}
+#menubar li {
+	float: left;
+	margin: 0;
+}
+#menubar li.current_page_item {
+	background: #efefef;
+}
+/*
+Sets width for Sub-Menu box and the List Items inside - in proportional em units. This allows the sub-menu width to expand if users resize the text in their browsers.
+*/
+#menubar li ul, #menubar ul li  {
+	width: 12em;
+}
+/*
+The sub-menu links.
+*/
+#menubar ul li a  {
+	color: #666;
+	padding: 8px 12px 8px 16px;
+}
+/*
+Sub-Menu Unordered Lists describes each dropdown sub-menu grouping.
+Positioned Absolutely to allow them to appear below their root trigger.
+Set to display none to hide them until trigger is moused over.
+Background Color must be set or problems will be encountered in MSIE.
+Right and bottom borders are set to simulate a raised look.
+A gradient background image is assigned.
+*/
+#menubar li ul {
+	position: absolute;
+	display: none;
+	background-color: #FFFFFF;
+	background-repeat: repeat-x;
+}
+/*
+Changes the Text color and background color when the Root-Level
+menu items are moused over. The second selector sets color and background
+when Root-Level items are accessed with the keyboard tab key. The third
+selector sets an active state to support keyboard access in MSIE. The fourth selector is assigned to IE5 and IE6 Windows via the P7_ExpMenu script.Note that IE7 supports hover on elements other than links and so behaves like Firefox, Opera, and Safari - making the menu operable even if JavaScript is not enabled.
+*/
+#menubar li:hover a, #menubar a:focus,
+#menubar a:active, #menubar li.hvr a {
+	color: #fff;
+	background-color: #454545;
+}
+/*
+Set the Sub-Menu UL to be visible when its associated
+Root-Level link is moused over. The second selector is
+assigned to IE5 and IE6 via the P7_ExpMenu script.
+*/
+#menubar li:hover ul, #menubar li.hvr ul {
+	display: block;
+}
+/*
+Sets the Text color of the Sub-Level links when the Root-Level
+menu items are moused over. The second selector is
+assigned to IE5 and IE6 via the P7_ExpMenu script.
+The color set should march the normal Sub-Level link color
+in the rule: #p7menubar ul li a. The background color must be
+transparent to allow the underlying gradient background on the UL
+to show through.
+*/
+#menubar li:hover ul a, #menubar li.hvr ul a {
+	color: #454545;
+	background-color: #efefef;
+	border-bottom: 1px dotted #ccc;
+	font-size: 1.0em;
+}
+/*
+The normal hover class for Sub-Level links. The Important directive
+is required for older browsers. We set a background color, which shows
+over the gradient background. We set text color to white.
+*/
+#menubar ul a:hover {
+	background-color: #606060!important;
+	color: #FFFFFF!important;
+}
+/* The single backslash \ character inside this comment
+causes IE5 Mac to ignore the following rule, which allows other
+browsers to render top-level menu items to their natural width.
+Do not edit this rule in any way. */
+#menubar li {width: auto;}
+
+h2.home-top {
+	font-family: Georgia, Utopia, Palatino, "Palatino Linotype", serif;
+	color: #454545;
+	font-weight: normal;
+	font-size: 1.5em;
+}
+#content h2.p-area {
+	margin: 0 0 3px 0;
+	font-family: Arial, Helvetica, sans serif;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+h2.p-area a:link, h2.p-area a:visited {
+	color: #000;
+	text-decoration: none;
+}
+h2.p-area a:hover, h2.p-area a:active {
+	text-decoration: underline;
+}
+#content p.p-area {
+	margin-bottom: 1.5em;
+}
+img.li-logo {
+	margin: 20px 0 0 20px;
+	float: right;
+	border: 0;
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+}
+/* social icons on attorneys listing page */
+ul.social-icons {
+	position: absolute;
+	right: 0;
+	bottom: 2em;
+	margin: 0;
+	list-style: none;
+}
+ul.social-icons li {
+	float: right;
+}
+ul.social-icons img {
+	border: 0;
+	margin: 0;
+	padding-bottom: 0;
+}
+/*** Sitemap specific h2 and h3 formatting ***/
+#menu-sitemap, .sitemap-only .menu {
+	margin-left: 0;
+}
+.sitemap-only ul {
+	list-style-type: none;
+}
+.sitemap-only li a:link, .sitemap-only li a:visited {
+	text-decoration: none;
+	color: #000;
+}
+.sitemap-only li a:hover, .sitemap-only li a:active {
+	text-decoration: underline;
+	color: #bf311a;
+}
+.sitemap-only li {
+	margin: 0 0 20px 0;
+	padding: 0;
+	font-family: Georgia, Utopia, Palatino, 'Palatino Linotype', serif;
+	font-size: 1.35em;
+	font-weight: normal;
+}
+.sitemap-only .menu .sub-menu {
+	margin-top: 20px;
+}
+.sitemap-only li li {
+	font-family: Arial, Helvetica, sans serif;
+	font-size: 0.75em;
+}
+.sitemap-only li li a:link, .sitemap-only li li a:visited {
+	text-decoration: none;
+}
+.sitemap-only li li a:hover, .sitemap-only li li a:active {
+	text-decoration: underline;
+}
+/* EventBrite Registration Form */
+.reg-form iframe {
+	height: 300px;
+}
+iframe {
+	max-width: 100%;
+	float:left;
+}
+iframe[name="google_conversion_frame"] {
+	display: none;
+}
+/* Download firm overview in Spanish PDF */
+#content p.downloader {
+	margin: 2.0rem 10%;
+}
+p.downloader a:link, p.downloader a:visited {
+	padding: 1.0rem 10%;
+	background-color: #bf311a;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	display: block;
+}
+
+.downloader a:hover, .downloader a:active,
+p.downloader a:hover, p.downloader a:active {
+	background-color: #454545;
+	text-decoration: none;
+}
+/*** Floating images to the right ***/
+.right01 {
+	margin: 0 0 20px 8%;
+	padding: 0;
+	float: right;
+}
+/*** Floating images to the left ***/
+.left01, .alignleft {
+	margin: 0 8% 20px 0;
+	padding: 0;
+	float: left;
+}
+/* gravity forms */
+#label_1_11_1,
+#label_2_11_1 {
+	width: 90%;
+	margin-left: 10px;
+}
+.gform_wrapper textarea {
+	border: 1px solid threedface;
+}
+.gform_wrapper ul.gfield_radio li input[type="radio"]:checked+label,
+.gform_wrapper ul.gfield_checkbox li input[type="checkbox"]:checked+label {
+	font-weight: normal !important;
+}
+
+/*** Media Queries for devices ***/
+/* Tablets */
+@media only screen and (max-width: 900px) {
+	#menubar a {
+		font-size: 1em;
+		padding: 8px 5px;
+	}
+	#banner p {
+		font-size: 1.1em;
+		margin: 35px 0;
+	}
+	.new-form form label {
+		width: 100%;
+	}
+	.new-form form input, .new-form form textarea {
+		width: 85%;
+	}
+	.new-form .btn input[type="submit"], .new-form-home .btn input[type="submit"] {
+		margin: 10px 0 0 0;
+	}
+	#row2 h3, #firm-news h3 {
+		font-size: 95%;
+		padding: 0.5em 0.5em 0.5em 2.1em;
+	}
+	#language {
+		display: none;
+	}
+	#row1 {
+		margin: 0;
+	}
+	.cta {
+		margin-top: 0px;
+		font-size: 150%;
+		line-height: 80%;
+	}
+	.cta-home {
+		margin-top: 1em;
+	}
+	#righter {
+		margin-top: 0;
+	}
+	#slideshow iframe {
+		width: 100%;
+	}
+	#truck-row #truck-01 h2 {
+		font-size: 1.3em;
+	}
+	#truck-row #truck-image {
+		width: 35%;
+	}
+	#truck-row #truck-text {
+		width: 56%;
+	}
+	/*pages that aren't homepage*/
+	#content.about-us, #content.practice-areas, #content.attorneys, #content.results, #content.community-support, #content.blog, #content.news, #content.contact-us, #content.en-espanol, #content.cle {
+		background: none;
+	}
+	#content {
+		margin: 0 2.04082%;
+		width: 62.585%;
+		padding: 0;
+	}
+	.biopic {
+		margin: 0 0 20px 20px;
+	}
+	#content img.big-pic {
+		width: 100%;
+		height: auto;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.cta.case-review.home {
+		margin: 0;
+	}
+	.cta-home {
+		margin: 0.5em 0;
+	}
+	.abtest #righter p.tag {
+		margin-top: 0;
+	}
+}
+/* small tablets */
+@media only screen and (max-width: 700px) {
+	#wrapper {
+		width: 98%;
+	}
+	#strapline h1 {
+		font-size: 0.9em;
+	}
+	#banner p {
+		margin: 25px 0 35px 0;
+		font-size: 1em;
+		width: 47%;
+	}
+	#banner img {
+		width: 45%;
+	}
+	#menubar a {
+		font-size: 0.85em;
+		padding: 8px 6px;
+	}
+	.zemContactForm legend {
+		font-size: 100%;
+	}
+	#row2 h3, #firm-news h3 {
+		font-size: 85%;
+		padding: 0.5em 0.5em 0.5em 2.5em;
+	}
+	#row2 a {
+		font-size: 90%;
+	}
+	/*pages other than homepage*/
+	#truck-row #truck-01 h3 {
+		font-size: 1.0em;
+	}
+	#truck-row #truck-01 h2 {
+		margin: 10px 0;
+		font-size: 1.2em;
+		line-height: 110%;
+	}
+}
+@media only screen and (max-width: 685px) {
+	/* mobile menu */
+	.mainmenu {
+		display: none;
+	}
+	.mobilemenu.visible {
+		display: block;
+		float: left;
+		width: 100%;
+	}
+	.innermenu {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+		overflow: hidden;
+	}
+	a.mmenu {
+		display: block;
+		width: 100%;
+		text-align: left;
+		visibility: visible;
+		cursor: pointer;
+		background: url( '../img/mobile-menu.png' ) no-repeat 5px center #bf311a;
+		padding: 10px 10px 10px 50px;
+		font-size: 1.1em;
+		color: #fff;
+		float: left;
+		text-decoration: none;
+	}
+	a.mmenu:hover,
+	a.mmenu:focus {
+		background: url( ../img/mobile-menu.png ) no-repeat 5px center #454545;
+		color: $color1;
+		text-decoration: none;
+	}
+	.mobilemenu ul {
+		display: block;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		background-color: #fff;
+		list-style: none outside;
+	}
+	.mobilemenu ul ul {
+		display: none;
+	}
+	.mobilemenu ul li {
+		margin: 0;
+	}
+	.mobilemenu ul li:hover ul {
+		background-color: #fff;
+		display: block;
+		visibility: visible;
+		float: left;
+		padding-left: 20px;
+		position: static;
+		left: auto;
+		top: auto;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.mobilemenu a {
+		color: #454545;
+		background: #fff;
+		padding: 10px;
+		border-bottom: 1px dotted #ccc;
+		text-decoration: none;
+		width: 100%;
+		display: block;
+	}
+	.mobilemenu li:hover > a,
+	.mobilemenu .children a {
+		background-color: #454545;
+		color: #fff;
+		display: block;
+	}
+	.mobilemenu ul a:hover,
+	.mobilemenu ul ul a:hover {
+		background-color: #454545;
+		color: #fff;
+		display: block;
+	}
+	.mobilemenu ul.children {
+		margin-bottom: 5px;
+		padding-right: 0;
+	}
+}
+/* mobile devices */
+@media only screen and (max-width: 590px) {
+	#strapline {
+		display: none;
+	}
+	#banner p {
+		display: none;
+	}
+	#banner img {
+		width: 60%;
+		margin: 0;
+	}
+	#menubar li:hover ul, #menubar li.hvr ul {
+		display: none;
+	}
+	#righter {
+		width: 95.91836%;
+		clear: both;
+		display: block;
+		float: left;
+		margin-top: 20px;
+	}
+	#slideshow {
+		width: 95.91836%;
+	}
+	#rotator_wrapper {
+		height: auto;
+	}
+	.new-form {
+		width: 90%;
+	}
+	#row1, #row2, #row2a, #row3 {
+		margin-bottom: 1em;
+	}
+	#row2 li, #home-body, #row3 .contact-info {
+		width: 95.91836%;
+	}
+	#row2a li {
+		width: 95.91836%;
+		margin-bottom: 1.5em;
+	}
+	#row2a h2 a {
+		min-height: initial;
+	}
+	#row2a .read-more {
+		margin-top: 0;
+	}
+	#row2 li {
+		margin-bottom: 1.5em;
+	}
+	#org-logos {
+		display: none;
+	}
+	#footer-strapline, #practice-nav, #footerNews {
+		width: 95.91836%;
+		border-bottom: 1px dotted #fff;
+		margin-top: 0;
+		padding: 1em 0;
+	}
+	#practice-nav {
+		padding-top: 0;
+	}
+	.contact-footer li:last-of-type {
+		margin-bottom: 0;
+	}
+	#copy-date, p.footerNav {
+		width: 95.91836%;
+	}
+	#copy01 {
+		margin: 0;
+	}
+	.cta p {
+		float: none;
+		margin-right: 0;
+	}
+	.cta-home p {
+		float: none;
+	}
+	.cta {
+		text-align: center;
+		display: block;
+		float: none;
+		margin-bottom: 1em;
+	}
+	.reg-form iframe {
+		height: 30px;
+	}
+	#truck-row #truck-01, #truck-row #truck-02 {
+		width: 100%;
+		margin: 0 0 30px 0;
+		padding: 0;
+	}
+	#truck-row #truck-text {
+		padding: 0 0 15px 0;
+	}
+	#soc-med {
+		margin: 1.5em 0;
+		display: block;
+	}
+	#soc-med ul {
+		margin-left: 0;
+	}
+	#soc-med li {
+		width: 42%;
+		display: inline-block;
+		float: none;
+	}
+	/*pages that aren't the homepage*/
+	#content {
+		width: 95.91836%;
+	}
+	img.li-logo {
+		display: none;
+	}
+	.biopic {
+		width: 35%;
+		max-width: 125px;
+		height: auto;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.cta-home {
+		margin: 1em 0;
+		text-align: center;
+		display: block;
+		float: none;
+	}
+	.cta.case-review.home {
+		margin: 1.5em 0 0;
+		text-align: center;
+		float: none;
+		display: block;
+	}
+	#row1 #slideshow {
+		margin-bottom: 0;
+	}
+	#row1 #righter {
+		margin-top: 20px;
+	}
+	#slideshow .soliloquy-container {
+		margin-bottom: 0 !important;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.blog-item .blogimg {
+		max-width: 100%;
+		max-height: 100%;
+		float: none;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.blog-item {
+		margin-bottom: 20px;
+		padding-bottom: 8px;
+	}
+	.blog-item h4,
+	#content .blog-item p.date,
+	#content .blog-item .entry-content p {
+		margin-left: 0;
+	}
+}

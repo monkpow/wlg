@@ -1,0 +1,66 @@
+﻿.liveChatFloatingButton, .liveChatFloatingButtonMobile, .liveChatFloatingButtonTop {
+    background-color: #474747;
+	-webkit-border-radius: 0;
+	-moz-border-radius-topleft: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+	-moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 0;
+	-moz-border-radius-bottomleft: 0;
+	text-indent: 0;
+	border: 1px solid #dcdcdc;
+	display: inline-block;
+    color: #e8e8e8;
+	font-family: Arial;
+	font-size: 27px;
+	font-weight: 700;
+	font-style: normal;
+	height: 52px;
+	line-height: 52px;
+	width: 190px;
+    display: block; 
+	padding: 0; 
+	position: fixed; 
+	left: -70px; 
+	bottom: 45%; 
+	z-index: 5000;
+    text-decoration: none;
+	text-align: center;
+    -ms-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+}
+
+.liveChatFloatingButton {
+    -webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg); 
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+}
+
+.liveChatFloatingButtonMobile, 
+.liveChatFloatingButtonTop, .liveChatFloatingButtonSpacer {
+    width: 100%;
+    border: 0;
+    left: 0;
+}
+
+.liveChatFloatingButtonMobile {
+    bottom: 0;
+}
+
+.liveChatFloatingButtonTop {
+    color: #ffffff; 
+    background-color: #474747;
+    right: auto;
+    bottom: auto;
+    top: 0;
+}
+
+.liveChatFloatingButtonSpacer {
+    height: 52px;
+    background-color: transparent;
+}
+
+.liveChatFloatingButton:hover {
+    background-color: #575757;
+}
