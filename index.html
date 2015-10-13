@@ -15,22 +15,45 @@
     <script src="./scripts/jquery.simple-text-rotator.min.js" ></script>
     <style>
 
-      .social-bar {
-        color:white;
-        margin: 10px 0;
-        padding: 0 10px;
-        font-size: 90%;
-        clear: both;
-        text-align:center;
+      img.osha {
+        width: 150px;
+        display:block;
+        padding:10px 0;
       }
+
+      .practice-areas a {
+        display:block;
+        text-decoration: none;
+        font-size:14px;
+        padding:2px 0;
+      }
+
+      footer h4 {
+        padding:5px 0;
+        margin:0;
+      }
+      .social-bar {
+      margin-top:10px;
+       color:white;
+    font-size: 90%;
+    clear: both;
+    text-align: center;
+    background-color: #002266;
+    height: 35px;
+    padding-top: 10px;
+      }
+      .social-bar a {
+        color:white;
+}
       .social-bar ul {
         width:100%;
         text-align:center;
         list-style-type: none;
+        padding-left:0;
       }
       .social-bar li {
         margin: 0 10px 0 0;
-        float: left;
+        display:inline-block;
       }
       .social-bar li.fb {
         padding: 3px 0 3px 22px;
@@ -68,8 +91,6 @@
 
 
       .exit-row {
-        margin-top:10px;
-        clear:both;
         background: #002666;
         padding:20px;
         color: #FFF;
@@ -92,7 +113,7 @@
         margin-left: 0;
         padding:0;
         padding-bottom:5px;
-      } 
+      }
 
 
 .live-chat-link img{
@@ -130,17 +151,25 @@ position: absolute;
       }
 
       .blogimg {
-      display:none;
-        clear:both;
-        float:left;
-        width:25px;
+        padding:5px;
       }
+      
+      .blogimg a {
+        text-decoration: none;
+      }
+
+      .blogimg img {
+        display:none;
+      }
+
 
       .dark-blue-background {
         background: #002666;
       }
 
       ul.top-menu {
+        border-top:1px solid #FFF;
+        border-bottom:1px solid #FFF;
         background-color: #222;
         padding:10px 50px;
         margin:0;
@@ -198,7 +227,6 @@ position: absolute;
       .body-content {
         background:#DDD;
         overflow: hidden;
-        padding-bottom: 20px;
       }
 
       .column-1 {
@@ -211,13 +239,25 @@ position: absolute;
       }
 
       .column-2 {
-        padding: 15px;
+        padding: 30px;
         float:left;
-        width:800px;
-        
+box-shadow: 0px 0px 15px #888;
+        width:700px;
+        padding-bottom:35px;
+      }
+      
+      .column-2 p {
+        padding:5px 10px;
+      }
+
+      .firm-photo {
+        margin:0;
+        padding:0;
       }
 
       h2 {
+        border-top:1px solid white;
+        border-bottom:1px solid white;
         text-align: center;
         color:white;
         font-family: Arial;
@@ -227,23 +267,11 @@ position: absolute;
       }
 
       h3 {
-        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#002666+0,002666+64,000000+100 */
-        background: #002666; /* Old browsers */
-        background: -moz-linear-gradient(top,  #002666 0%, #002666 64%, #000000 100%); /* FF3.6+ */
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#002666), color-stop(64%,#002666), color-stop(100%,#000000)); /* Chrome,Safari4+ */
-        background: -webkit-linear-gradient(top,  #002666 0%,#002666 64%,#000000 100%); /* Chrome10+,Safari5.1+ */
-        background: -o-linear-gradient(top,  #002666 0%,#002666 64%,#000000 100%); /* Opera 11.10+ */
-        background: -ms-linear-gradient(top,  #002666 0%,#002666 64%,#000000 100%); /* IE10+ */
-        background: linear-gradient(to bottom,  #002666 0%,#002666 64%,#000000 100%); /* W3C */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002666', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
-
-        font-size:14px;
-        background: #002666;
-        color:white;
+        font-size:35px;
+        color: #bf311a;
         font-family: Arial, sans-serif;
         margin: 0;
-        padding: 10px;
-        font-weight:normal;
+        padding:0 -2px;
       }
     </style>
   </head>
@@ -267,94 +295,27 @@ position: absolute;
       <li>Español</li>
     </ul>
 
-    <img width="100%" src="./Whiting Law Group, Ltd. _ Personal Injury Attorneys_files/whiting-law-group-sep-2015-cropped.jpg" class="firm-photo" alt="Whiting Law Group">
+    <div class="main-photo">
+      <img width="100%" src="./Whiting Law Group, Ltd. _ Personal Injury Attorneys_files/whiting-law-group-sep-2015-cropped.jpg" class="firm-photo" alt="Whiting Law Group">
+    </div>
 
     <div class="rotator">
       <div class="rotate">
       Whiting Law Group understands how the harm caused by the negligent conduct of others affects our clients and their loved ones. |
       We are leading truck accident, personal injury and wrongful death attorneys.|
-      We have won 96% of our cases. | 
+      We have won 96% of our cases. |
       $120 Million in Awards and Settlements for our clients. |
       $2,950,000 for Seriously Injured Truck Accident Victim |
-      $1,550,000 for 22-Year Old Woman Killed in a Truck Accident | 
-      $1,000,000 for Wrongful Death Caused by Faulty Maintenance 
+      $1,550,000 for 22-Year Old Woman Killed in a Truck Accident |
+      $1,000,000 for Wrongful Death Caused by Faulty Maintenance
       </div>
     </div>
     <div class="body-content">
       <h2>
-        Successful Personal Injury Lawyers who Care about You
+        Successful Personal Injury Lawyers who Care about <i>You</i>
       </h2>
       <div class="column column-1">
-        <a class="live-chat-link"><img src="img/ChatButton.jpeg"/></a>
-        <h3>Our Success in Truck Accident Cases</h3>
-        <p>We have a proven winning record in Trucking Accidents</p>
 
-        <p>
-        We have been successfully fighting for the rights of those injured or
-        killed in truck accidents for over a decade. Our experience and record
-        of success helps deliver maximum justice for our clients.
-        </p>
-
-        <h3 class="firm-news">Firm News</h3>
-          <ul class="unbullet-list">
-              <li>
-                <div class="blogimg">
-                <a href="http://wlglaw.net/top-personal-injury-attorneys-lauded-by-the-legal-community/"><img width="500" height="350" src="http://wlglaw.net/wp-content/uploads/2011/05/whiting-law-group-sep-2015.jpg" class="attachment-post-thumbnail wp-post-image" alt="Whiting Law Group" /></a>                 </div>
-                <a rel="bookmark" href="http://wlglaw.net/top-personal-injury-attorneys-lauded-by-the-legal-community/">Top Personal Injury Attorneys Lauded by the Legal Community</a>
-              </li>
-
-                        
-              <li>
-                <div class="blogimg">
-                <a href="http://wlglaw.net/recap-great-summer-whiting-law-group/"><img width="519" height="400" src="http://wlglaw.net/wp-content/uploads/2015/08/team-whiting-law-group-e1441203051605.jpg" class="attachment-post-thumbnail wp-post-image" alt="Team Whiting Law Group" /></a>                  </div>
-                <a rel="bookmark" href="http://wlglaw.net/recap-great-summer-whiting-law-group/">Recap of a Great Summer at Whiting Law Group</a>
-              </li>
-
-                        
-              <li>
-                <div class="blogimg">
-                <a href="http://wlglaw.net/sara-m-davis-named-as-a-super-lawyer-for-2015/"><img width="500" height="333" src="http://wlglaw.net/wp-content/uploads/2014/02/sara-m-davis.jpg" class="attachment-post-thumbnail wp-post-image" alt="Sara M. Davis" /></a>                 </div>
-                <a rel="bookmark" href="http://wlglaw.net/sara-m-davis-named-as-a-super-lawyer-for-2015/">Sara M. Davis Named as a Super Lawyer for 2015</a>
-              </li>
-
-                        
-              <li>
-                <div class="blogimg">
-                <a href="http://wlglaw.net/155-million-for-a-22-year-old-woman-killed-by-a-truck/"><img src="http://wlglaw.net/wp-content/themes/wlglaw/img/default-news.png" alt="Default Whiting Law Group blog post thumbnail image"></a>                  </div>
-                <a rel="bookmark" href="http://wlglaw.net/155-million-for-a-22-year-old-woman-killed-by-a-truck/">$1.55 Million for a 22-Year Old Woman Killed by a Truck</a>
-              </li>
-
-                        
-              <li>
-                <div class="blogimg">
-                <a href="http://wlglaw.net/1425-million-for-passengers-killed-or-injured-in-an-i-65-trucking-accident/"><img src="http://wlglaw.net/wp-content/themes/wlglaw/img/default-news.png" alt="Default Whiting Law Group blog post thumbnail image"></a>                 </div>
-                <a rel="bookmark" href="http://wlglaw.net/1425-million-for-passengers-killed-or-injured-in-an-i-65-trucking-accident/">$1.425 Million for Passengers Killed or Injured in an I-65 Trucking Accident</a>
-              </li>
-
-                      </ul>
-          <p class="readmore"><a href="http://wlglaw.net/news/">Read additional news highlights &raquo;</a>
-
-<h3>Our Latest Blog</h3>
-
-<h4>OSHA and Construction Accident Law</h4>
-
-OSHA is a government organization that gets talked about in our workplaces and on our job sites. But few people really understand what OSHA is, what is does and how it plays out in construction accident litigation. OSHA – the …
-
-
-<div class="social-bar">
-<ul>
-  <li class="fb"><a href="http://facebook.com/whitinglawgroup" rel="publisher">Facebook</a></li>
-  <li class="tw"><a href="http://twitter.com/whitinglawgroup" rel="publisher">Twitter</a></li>
-  <li class="gp"><a href="https://plus.google.com/101888090364628658735" rel="publisher">Google+</a></li>
-  <li class="yt"><a href="https://www.youtube.com/channel/UCuv-YnrbDVrEUCN4mhoucIQ" rel="publisher">YouTube</a></li>
-  <li class="rss"><a href="http://feeds.feedburner.com/WhitingLawGroup">RSS</a></li>
-</ul>
-</div>
-
-      </div>
-
-      <div class="column column-2">
-        <h4>A Top Law Firm of Trial Lawyers Representing Victims of Personal Injury, Trucking Accidents, Construction Accidents, Medical Malpractice and Wrongful Death </h4>
         <h4>Whiting Law Group focuses on personal injury law and litigation.</h4>
         Our successful
         team of proven personal injury lawyers in Chicago and Wisconsin represent
@@ -380,7 +341,99 @@ OSHA is a government organization that gets talked about in our workplaces and o
         as a result of our success.
         </p>
 
+  <h4>Practice Areas</h4>
+    <div class="practice-areas">
+    <a href="#">Personal Injury</a>
+    <a href="#">Trucking Accidents</a>
+    <a href="#">Automobile Accidents</a>
+    <a href="#">Construction Accidents</a>
+    <a href="#">Medical Malpractice</a>
+    <a href="#">Wrongful Death</a>
+    <a href="#">Workplace Injuries</a>
+    <a href="#">Workers Compensation</a>
+    <a href="#">Nursing Home Abuse</a>
+</div>
+</div>
+
+      <div class="column column-2">
+        <a class="live-chat-link"><img src="img/ChatButton.jpeg"/></a>
+        <h3>Our Success in Truck Accident Cases</h3>
+        <p>We have a proven winning record in Trucking Accidents</p>
+
+        <p>
+        We have been successfully fighting for the rights of those injured or
+        killed in truck accidents for over a decade. Our experience and record
+        of success helps deliver maximum justice for our clients.
+        </p>
+
+        <h3 class="firm-news">Firm News</h3>
+          <ul class="unbullet-list">
+              <li>
+                <div class="blogimg">
+                <a href="http://wlglaw.net/top-personal-injury-attorneys-lauded-by-the-legal-community/">
+                  <img
+                    src="http://wlglaw.net/wp-content/uploads/2011/05/whiting-law-group-sep-2015.jpg"
+                    class="attachment-post-thumbnail wp-post-image"
+                    alt="Whiting Law Group"
+                  />
+                </a>
+                <a rel="bookmark" href="http://wlglaw.net/top-personal-injury-attorneys-lauded-by-the-legal-community/">Top Personal Injury Attorneys Lauded by the Legal Community</a>
+                </div>
+              </li>
+
+
+              <li>
+                <div class="blogimg">
+                <a href="http://wlglaw.net/recap-great-summer-whiting-law-group/">
+                    <img src="http://wlglaw.net/wp-content/uploads/2015/08/team-whiting-law-group-e1441203051605.jpg" class="attachment-post-thumbnail wp-post-image" alt="Team Whiting Law Group" /></a>                  
+                <a rel="bookmark" href="http://wlglaw.net/recap-great-summer-whiting-law-group/">Recap of a Great Summer at Whiting Law Group</a>
+
+</div>
+
+              </li>
+
+
+              <li>
+                <div class="blogimg">
+                <a href="http://wlglaw.net/sara-m-davis-named-as-a-super-lawyer-for-2015/">
+                      <img width="500" height="333" src="http://wlglaw.net/wp-content/uploads/2014/02/sara-m-davis.jpg" class="attachment-post-thumbnail wp-post-image" alt="Sara M. Davis" /></a>                 
+                <a rel="bookmark" href="http://wlglaw.net/sara-m-davis-named-as-a-super-lawyer-for-2015/">Sara M. Davis Named as a Super Lawyer for 2015</a>
+</div>
+              </li>
+
+
+              <li>
+                <div class="blogimg">
+                <a href="http://wlglaw.net/155-million-for-a-22-year-old-woman-killed-by-a-truck/"><img src="http://wlglaw.net/wp-content/themes/wlglaw/img/default-news.png" alt="Default Whiting Law Group blog post thumbnail image"></a>                  
+                <a rel="bookmark" href="http://wlglaw.net/155-million-for-a-22-year-old-woman-killed-by-a-truck/">$1.55 Million for a 22-Year Old Woman Killed by a Truck</a>
+
+</div>
+              </li>
+
+
+              <li>
+                <div class="blogimg">
+                <a href="http://wlglaw.net/1425-million-for-passengers-killed-or-injured-in-an-i-65-trucking-accident/"><img src="http://wlglaw.net/wp-content/themes/wlglaw/img/default-news.png" alt="Default Whiting Law Group blog post thumbnail image"></a>                
+                <a rel="bookmark" href="http://wlglaw.net/1425-million-for-passengers-killed-or-injured-in-an-i-65-trucking-accident/">$1.425 Million for Passengers Killed or Injured in an I-65 Trucking Accident</a>
+
+ </div>
+              </li>
+
+                      </ul>
+          <p class="readmore"><a href="http://wlglaw.net/news/">Read additional news highlights &raquo;</a>
+
+<h3>Our Latest Blog</h3>
+
+<img src="./img/US-OSHA-Logo.svg" class='osha'/>
+
+<h4><a href="#">OSHA and Construction Accident Law</a></h4>
+
+OSHA is a government organization that gets talked about in our workplaces and on our job sites. But few people really understand what OSHA is, what is does and how it plays out in construction accident litigation. OSHA – the …
+
+
+
       </div>
+
     </div>
 <footer>
   <img src="./Whiting Law Group, Ltd. _ Personal Injury Attorneys_files/icons-grey.jpg" alt="" />
@@ -390,25 +443,34 @@ OSHA is a government organization that gets talked about in our workplaces and o
     <div class="column">
       Chicago Office:<br />
       One East Wacker Drive, Suite 2300<br />
-      Chicago, Illinois 60601 <br /> 
+      Chicago, Illinois 60601 <br />
       t: 312-372-1655 <br />
     </div>
 
     <div class="column">
-      Kenosha, Wisconsin Office:  <br /> 
-      6121 Green Bay Road Suite 240 <br /> 
-      Kenosha, Wisconsin 53142 <br /> 
-      t: 262-228-8859 <br /> 
+      Kenosha, Wisconsin Office:  <br />
+      6121 Green Bay Road Suite 240 <br />
+      Kenosha, Wisconsin 53142 <br />
+      t: 262-228-8859 <br />
     </div>
 
     <div class="column">
-      Delavan, Wisconsin Office:<br /> 
-      125 N. 2nd Street <br /> 
-      Delavan, Wisconsin 53115 <br /> 
-      t: 262-228-8859 <br /> 
+      Delavan, Wisconsin Office:<br />
+      125 N. 2nd Street <br />
+      Delavan, Wisconsin 53115 <br />
+      t: 262-228-8859 <br />
     </div>
 
 </div>
+    <div class="social-bar">
+    <ul>
+      <li class="fb"><a href="http://facebook.com/whitinglawgroup" rel="publisher">Facebook</a></li>
+      <li class="tw"><a href="http://twitter.com/whitinglawgroup" rel="publisher">Twitter</a></li>
+      <li class="gp"><a href="https://plus.google.com/101888090364628658735" rel="publisher">Google+</a></li>
+      <li class="yt"><a href="https://www.youtube.com/channel/UCuv-YnrbDVrEUCN4mhoucIQ" rel="publisher">YouTube</a></li>
+      <li class="rss"><a href="http://feeds.feedburner.com/WhitingLawGroup">RSS</a></li>
+    </ul>
+    </div>
 <div class="exit-row">
 © 2008-2015, Whiting Law Group, Ltd. All rights reserved.<br /> Home  | About Us  | Practice Areas  | Attorneys  | Our Record of Success and Justice  | CLE Courses  | Contact Us  | Disclaimer  | Privacy Policy  | Accessibility  | Sitemap  | En Español  | Truck Accident Lawyers
 </div>
